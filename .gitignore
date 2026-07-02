@@ -1,0 +1,28 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+Manifest.toml
+
+# Results (keep dirs via .gitkeep, ignore outputs)
+Results_cst/*
+!Results_cst/.gitkeep
+Results_naca/*
+!Results_naca/.gitkeep
+
+# Temporary files
+*.dat
+*.out
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
